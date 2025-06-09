@@ -6,8 +6,8 @@ public class SimpleInterestCalculator{
     public static void main(String[]args){
 
         double principal = 10000;
-        double rate = 4;
-        double time = 2;
+        double rate = 8;
+        double time = 4;
 
         double interest = CalculateSimpleInterest(principal, rate, time);
         System.out.println("Principal:"+ principal);
